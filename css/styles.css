@@ -434,6 +434,10 @@ h1.name {
 
 /* media queries*/
 
+div.yepyep > .sectionleft {
+  float: right;
+}
+
 @media (max-width: 1024px) {
   footer,
   .container {
@@ -459,12 +463,15 @@ h1.name {
   .sections {
     width: 100%;
     height: auto;
-    margin: 25px 0;
     float: left;
   }
 }
 
 @media (max-width: 425px) {
+  div.yepyep > .sectionleft {
+    float: none;
+  }
+
   h1.name {
     font-size: 40px;
   }
