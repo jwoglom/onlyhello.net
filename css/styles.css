@@ -438,6 +438,10 @@ div.yepyep > .sectionleft {
   float: right;
 }
 
+div.yepyep > .sectionleft .list-card {
+  box-shadow: 20px -20px 60px #d9d9d9, -20px 20px 60px #fff;
+}
+
 @media (max-width: 1024px) {
   footer,
   .container {
@@ -470,6 +474,10 @@ div.yepyep > .sectionleft {
 @media (max-width: 425px) {
   div.yepyep > .sectionleft {
     float: none;
+  }
+
+  div.yepyep > .sectionleft .list-card {
+    box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
   }
 
   h1.name {
